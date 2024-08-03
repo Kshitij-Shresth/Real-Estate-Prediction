@@ -51,12 +51,12 @@ Installation
 ### Clone the repository and navigate to the project directory:
 bash
 
-cd Real-Estate-Price-Prediction
+`cd Real-Estate-Price-Prediction`
 
 ### Start the Flask web server:
 bash
 
-python app.py
+`python app.py`
 
 Open a web browser and go to http address to access the application.
 
