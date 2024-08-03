@@ -1,4 +1,65 @@
 # Real-Estate-Prediction
+This project aims to predict housing prices based on various features using a Decision Tree Regressor. By analyzing real estate data, we can provide price estimates for houses based on input parameters such as bedroom ratio, population level, and median income.
+
+## Tools and Technologies
+Pandas: For data manipulation and analysis.
+NumPy: For numerical computations.
+Scikit-learn: For implementing the Decision Tree Regressor.
+Flask: For creating the web application.
+Matplotlib & Seaborn: For creating visualizations during the data exploration phase.
+
+## Project Overview
+i) Data Preprocessing
+Loading the housing data from housing.csv.
+Handling missing values by dropping rows with missing data.
+Applying log transformations to skewed features like total_rooms, total_bedrooms, population, and households.
+Converting categorical features (ocean_proximity) to binary using one-hot encoding.
+ii) Data Exploration
+Splitting the data into training and testing sets.
+Plotting histograms to visualize the distribution of various features.
+Using heatmaps to visualize correlations between features and the target variable (median_house_value).
+Applying log transformations to reduce skewness in features.
+iii) Feature Engineering
+Creating new features such as bedroom_ratio (total_bedrooms / total_rooms) and household_rooms (total_rooms / households).
+iv) Model Training
+Training a Decision Tree Regressor on the preprocessed data.
+v) Web Application
+Creating a Flask web application with an input form to collect user inputs.
+Making predictions based on user inputs and displaying the predicted house price.
+
+## Installation and Usage
+### Prerequisites
+Python 3.x
+Required Python libraries: pandas, numpy, scikit-learn, flask, matplotlib, seaborn
+Installation
+### Clone the repository:
+bash
+Copy code
+git clone https://github.com/yourusername/Real-Estate-Price-Prediction.git
+### Navigate to the project directory:
+bash
+cd Real-Estate-Price-Prediction
+### Install the required libraries:
+bash
+### Start the Flask web server:
+bash
+python app.py
+Open a web browser and go to http address to access the application.
+Enter the required input parameters and submit the form to get the predicted house price.
+
+## Future Enhancements
+Implement additional machine learning models for improved predictions.
+Enhance the web application with more interactive features and visualizations.
+Integrate more detailed data for better model accuracy.
+
+## Repository Structure
+app.py: Flask web application script.
+exploration.py: Data exploration and visualization script.
+templates/: HTML templates for the web application.
+index.html: Input form template.
+result.html: Prediction result template.
+
+
 Note: The model might be prone to overfitiing, will investigate the use of L1 or L2 regularization.
 ![image](https://github.com/user-attachments/assets/80f47c44-fb1d-4eff-acdb-c8152de84328)
 ![image](https://github.com/user-attachments/assets/62e5f177-1a29-4996-959b-86521caaffda)
