@@ -48,14 +48,7 @@ Python 3.x
 Required Python libraries: pandas, numpy, scikit-learn, flask, matplotlib, seaborn
 
 Installation
-### Clone the repository:
-bash
-
-Copy code
-
-git clone https://github.com/yourusername/Real-Estate-Price-Prediction.git
-
-### Navigate to the project directory:
+### Clone the repository and navigate to the project directory:
 bash
 
 cd Real-Estate-Price-Prediction
