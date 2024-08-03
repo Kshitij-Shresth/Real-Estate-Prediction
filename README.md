@@ -3,9 +3,13 @@ This project aims to predict housing prices based on various features using a De
 
 ## Tools and Technologies
 Pandas: For data manipulation and analysis.
+
 NumPy: For numerical computations.
+
 Scikit-learn: For implementing the Decision Tree Regressor.
+
 Flask: For creating the web application.
+
 Matplotlib & Seaborn: For creating visualizations during the data exploration phase.
 
 ## Project Overview
