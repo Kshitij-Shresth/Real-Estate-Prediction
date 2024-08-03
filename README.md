@@ -62,14 +62,6 @@ Open a web browser and go to http address to access the application.
 
 Enter the required input parameters and submit the form to get the predicted house price.
 
-## Future Enhancements
-Implement additional machine learning models for improved predictions.
-
-Enhance the web application with more interactive features and visualizations.
-
-Integrate more detailed data for better model accuracy.
-
-result.html: Prediction result template.
 
 ## Future Enhancements
 Implement additional machine learning models for improved predictions.
@@ -78,7 +70,7 @@ Enhance the web application with more interactive features and visualizations.
 
 Integrate more detailed data for better model accuracy.
 
-The model might be prone to overfitiing, will investigate the use of L1 or L2 regularization.
+The model might be prone to overfitiing, investigate the use of L1 or L2 regularization.
 
 ![image](https://github.com/user-attachments/assets/80f47c44-fb1d-4eff-acdb-c8152de84328)
 ![image](https://github.com/user-attachments/assets/62e5f177-1a29-4996-959b-86521caaffda)
