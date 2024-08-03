@@ -13,7 +13,7 @@ Flask: For creating the web application.
 Matplotlib & Seaborn: For creating visualizations during the data exploration phase.
 
 ## Project Overview
-i) Data Preprocessing
+### i) Data Preprocessing
 Loading the housing data from housing.csv.
 
 Handling missing values by dropping rows with missing data.
@@ -22,7 +22,7 @@ Applying log transformations to skewed features like total_rooms, total_bedrooms
 
 Converting categorical feature (ocean_proximity) to binary using one-hot encoding.
 
-ii) Data Exploration
+### ii) Data Exploration
 Splitting the data into training and testing sets.
 
 Plotting histograms to visualize the distribution of various features.
@@ -31,13 +31,13 @@ Using heatmaps to visualize correlations between features and the target variabl
 
 Applying log transformations to reduce skewness in features.
 
-iii) Feature Engineering
+### iii) Feature Engineering
 Creating new features such as bedroom_ratio (total_bedrooms / total_rooms) and household_rooms (total_rooms / households).
 
-iv) Model Training
+### iv) Model Training
 Training a Decision Tree Regressor on the preprocessed data.
 
-v) Web Application
+### v) Web Application
 Creating a Flask web application with an input form to collect user inputs.
 
 Making predictions based on user inputs and displaying the predicted house price.
