@@ -39,8 +39,6 @@ git clone https://github.com/yourusername/Real-Estate-Price-Prediction.git
 ### Navigate to the project directory:
 bash
 cd Real-Estate-Price-Prediction
-### Install the required libraries:
-bash
 ### Start the Flask web server:
 bash
 python app.py
