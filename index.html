@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h2>House Price Prediction Form</h2>
+    <form action="/predict" method="post">
+        <label for="bedroom_ratio">Bedroom Ratio (total_bedrooms / total_rooms):</label><br>
+        <input type="text" id="bedroom_ratio" name="bedroom_ratio"><br><br>
+        <label for="population">Population Level (high/low):</label><br>
+        <input type="text" id="population" name="population"><br><br>
+        <label for="median_income">Income Level (median_income):</label><br>
+        <input type="text" id="median_income" name="median_income"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
